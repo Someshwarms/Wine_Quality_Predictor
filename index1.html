@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: #87CEEB;
+    background-image: url('https://static.india.com/wp-content/uploads/2016/02/Wine-Main-Article-1.jpg?impolicy=Medium_Widthonly&w=700&h=467');
+  }</style>
+    <meta charset="UTF-8">
+    <title>Wine Quality Predictor</title>
+</head>
+<body>
+<form method="post" action="/predict">
+
+        <label>Type</label><br>
+        <input type="text" name="type"><br><br>
+
+        <label>Fixed Acidity</label><br>
+        <input type="text" name="fixed_acidity"><br><br>
+
+        <label>Volatile Acidity</label><br>
+        <input type="text" name="volatile_acidity"><br><br>
+
+        <label>Citric Acid</label><br>
+        <input type="text" name="citric_acid"><br><br>
+
+
+        <label>Residual Sugar</label><br>
+        <input type="text" name="residual_sugar"><br><br>
+
+        <label>Chlorides</label><br>
+        <input type="text" name="chlorides"><br><br>
+
+        <label>Free Sulphur Dioxide</label><br>
+        <input type="text" name="free_sulphur_dioxide"><br><br>
+
+        <label>Toatal Sulphur Dioxide</label><br>
+        <input type="text" name="total_sulphur_dioxide"><br><br>
+
+        <label>Density</label><br>
+        <input type="text" name="density"><br><br>
+
+        <label>PH</label><br>
+        <input type="text" name="ph"><br><br>
+
+        <label>Sulphates</label><br>
+        <input type="text" name="sulphates"><br><br>
+
+        <label>Alcohol</label><br>
+        <input type="text" name="alcohol"><br><br>
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+</body>
+</html>
